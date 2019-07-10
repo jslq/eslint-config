@@ -1,0 +1,28 @@
+{
+  "name": "@jslq/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config preset",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jslq/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "917498254@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jslq/eslint-config/issues"
+  },
+  "homepage": "https://github.com/jslq/eslint-config#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
